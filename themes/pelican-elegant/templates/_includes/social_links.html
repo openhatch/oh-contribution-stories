@@ -1,0 +1,33 @@
+{% if SOCIAL %}
+{% from '_includes/_defaults.html' import SOCIAL_PROFILE_LABEL with context %}
+<h4>{{ SOCIAL_PROFILE_LABEL }}</h4>
+{% for entry in SOCIAL %}
+{% set f_entry = [] %}
+    {%for item in entry %}
+        {# first is for name #}
+        {% if loop.first %}
+            {% set link_title = 'My ' + item + ' Profile' %}
+            {% set link_icon = item.lower() %}
+            {% if item.lower() == 'email' %}
+                {% set link_title = 'My ' + item + ' Address' %}
+                {% set link_icon = 'envelope' %}
+            {% elif item.lower() == 'rss' %}
+                {% set link_title = 'Subscribe in a reader' %}
+                {% set link_icon = 'rss' %}
+            {% endif %}
+            {% if f_entry.insert(0, link_title) %}{% endif %}
+            {% if f_entry.insert(1, link_icon) %}{% endif %}
+        {% elif loop.index0 == 1 %}
+            {% set url = item|e %}
+            {% if f_entry.insert(2, url) %}{% endif %}
+        {% elif loop.index0 == 2 %}
+            {% set link_icon = item.lower() %}
+            {% if f_entry.pop(1) %}{% endif %}
+            {% if f_entry.insert(1, link_icon) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+    <a href="{{f_entry[2]}}" title="{{f_entry[0]}}" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-{{f_entry[1]}} sidebar-social-links"></i></a>
+{% endfor %}
+{% endif %}
+

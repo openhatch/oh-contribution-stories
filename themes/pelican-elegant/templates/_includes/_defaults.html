@@ -1,0 +1,147 @@
+{# Label for the list of related posts #}
+{% if not RELATED_POSTS_LABEL %}
+{% set RELATED_POSTS_LABEL = 'Related Posts' %}
+{% else %}
+{% set RELATED_POSTS_LABEL = RELATED_POSTS_LABEL %}
+{% endif %}
+
+{# Label for the list of social profiles #}
+{% if not SOCIAL_PROFILE_LABEL %}
+{% set SOCIAL_PROFILE_LABEL = 'Contact' %}
+{% else %}
+{% set SOCIAL_PROFILE_LABEL = SOCIAL_PROFILE_LABEL %}
+{% endif %}
+
+{# Label for the Email subscription form #}
+{% if not EMAIL_SUBSCRIPTION_LABEL %}
+{% set EMAIL_SUBSCRIPTION_LABEL = 'Email Newsletter' %}
+{% else %}
+{% set EMAIL_SUBSCRIPTION_LABEL = EMAIL_SUBSCRIPTION_LABEL %}
+{% endif %}
+
+{# Placeholder text for Email field #}
+{% if not EMAIL_FIELD_PLACEHOLDER  %}
+{% set EMAIL_FIELD_PLACEHOLDER  = 'Enter your email...' %}
+{% else %}
+{% set EMAIL_FIELD_PLACEHOLDER  = EMAIL_FIELD_PLACEHOLDER  %}
+{% endif %}
+
+{# Subscribe button title #}
+{% if not SUBSCRIBE_BUTTON_TITLE  %}
+{% set SUBSCRIBE_BUTTON_TITLE  = 'Subscribe' %}
+{% else %}
+{% set SUBSCRIBE_BUTTON_TITLE  = SUBSCRIBE_BUTTON_TITLE  %}
+{% endif %}
+
+{# Count of recent articles to be shown on the home page #}
+{% if not RECENT_ARTICLES_COUNT  %}
+{% set RECENT_ARTICLES_COUNT  = 10 %}
+{% else %}
+{% set RECENT_ARTICLES_COUNT  = RECENT_ARTICLES_COUNT  %}
+{% endif %}
+
+{# Label to show before Share Post links #}
+{% if not SHARE_POST_INTRO %}
+{% set SHARE_POST_INTRO = 'Share on:' %}
+{% else %}
+{% set SHARE_POST_INTRO = SHARE_POST_INTRO %}
+{% endif %}
+
+{# Label to show before comments #}
+{% if not COMMENTS_INTRO %}
+{% set COMMENTS_INTRO = '' %}
+{% else %}
+{% set COMMENTS_INTRO = COMMENTS_INTRO %}
+{% endif %}
+
+{# Author's twitter handle. Used in Twitter card meta data #}
+{% if not TWITTER_USERNAME %}
+{% set TWITTER_USERNAME = '' %}
+{% else %}
+{% set TWITTER_USERNAME = TWITTER_USERNAME %}
+{% endif %}
+
+{# Author's Google Plus Profile URL. Used for Google Authorship #}
+{% if not GOOGLE_PLUS_PROFILE_URL %}
+{% set GOOGLE_PLUS_PROFILE_URL = '' %}
+{% else %}
+{% set GOOGLE_PLUS_PROFILE_URL = GOOGLE_PLUS_PROFILE_URL %}
+{% endif %}
+
+{# Thumbnail image to show when homepage is shared on social media. It also
+serves as the default image for posts whose featured_image is not set. #}
+{% if not FEATURED_IMAGE %}
+{% set FEATURED_IMAGE = '' %}
+{% else %}
+{% set FEATURED_IMAGE = FEATURED_IMAGE %}
+{% endif %}
+
+{# License of your site that appears in the footer of every page #}
+{% if not SITE_LICENSE %}
+{% set SITE_LICENSE = '' %}
+{% else %}
+{% set SITE_LICENSE = SITE_LICENSE %}
+{% endif %}
+
+{# Description of your site. It is used in meta tags so it will appear in
+search results and social media #}
+{% if not SITE_DESCRIPTION %}
+{% set SITE_DESCRIPTION = '' %}
+{% else %}
+{% set SITE_DESCRIPTION = SITE_DESCRIPTION %}
+{% endif %}
+
+{# Mailchimp form action URL. This value is mandatory, to show subscriber form
+#}
+{% if not MAILCHIMP_FORM_ACTION %} {% set MAILCHIMP_FORM_ACTION = '' %}
+{% else %}
+{% set MAILCHIMP_FORM_ACTION = MAILCHIMP_FORM_ACTION %}
+{% endif %}
+
+{# It is displayed along with the SITENAME in the footer of every page #}
+{% if not SITESUBTITLE %}
+{% set SITESUBTITLE = '' %}
+{% else %}
+{% set SITESUBTITLE = SITESUBTITLE %}
+{% endif %}
+
+{# Set it to True to display favicon and speed dial icon. Also make sure that
+you have placed images in the appropriate directory and defined STATIC_PATHS
+accordingly #}
+{% if not USE_SHORTCUT_ICONS %}
+{% set USE_SHORTCUT_ICONS = False %}
+{% else %}
+{% set USE_SHORTCUT_ICONS = USE_SHORTCUT_ICONS %}
+{% endif %}
+
+{# It is a dictionary with two keys: title, details. Value of each key is a
+string. It is used to display About me section on the home page.
+LANDING_PAGE_ABOUT = {'title': 'Talha Mansoor',
+                      'details': '<p>I am a software developer. This blog is'
+                                 'my personal space in the cyber world!</p>'
+                     }
+#}
+{% if not LANDING_PAGE_ABOUT %}
+{% set LANDING_PAGE_ABOUT = '' %}
+{% else %}
+{% set LANDING_PAGE_ABOUT = LANDING_PAGE_ABOUT %}
+{% endif %}
+
+{# It is an array of dictionaries. Each distionary has three keys: name, url,
+description.
+PROJECTS = [{
+    'name': 'Logpad + Duration',
+    'url': 'https://github.com/talha131/logpad-plus-duration#logpad--duration',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'},
+    {'name': 'Elegant Theme for Pelican',
+    'url': 'http://oncrashreboot.com/pelican-elegant',
+    'description': 'A clean and distraction free theme, with search and a'
+    ' lot more unique features, using Jinja2 and Bootstrap'}]
+#}
+{% if not PROJECTS %}
+{% set PROJECTS = '' %}
+{% else %}
+{% set PROJECTS = PROJECTS %}
+{% endif %}
+
