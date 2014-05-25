@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2014-05-24T10:00:00Z</updated><entry><title>test</title><link href="/test.html" rel="alternate"></link><updated>2014-05-24T10:00:00Z</updated><author><name></name></author><id>tag:,2014-05-24:test.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;This is a test.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Yes, it is.&lt;/em&gt;&lt;/p&gt;</summary></entry></feed>
