@@ -1,44 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8" />
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="" />
+        <meta name="copyright" content="" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
         <title>A Pelican Blog - Authors</title>
-        <link rel="stylesheet" href="http://openhatch.github.io/oh-contribution-stories/theme/css/main.css" />
-        <link href="http://openhatch.github.io/oh-contribution-stories/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
-
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://openhatch.github.io/oh-contribution-stories/">A Pelican Blog </a></h1>
-                <nav><ul>
-                    <li><a href="http://openhatch.github.io/oh-contribution-stories/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-<section id="content" class="body">
-    <h1>Authors on A Pelican Blog</h1></section>
-
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://openhatch.github.io/oh-contribution-stories/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://openhatch.github.io/oh-contribution-stories/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://openhatch.github.io/oh-contribution-stories/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://openhatch.github.io/oh-contribution-stories/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://openhatch.github.io/oh-contribution-stories/theme/css/custom.css" media="screen">
+        <link href="http://openhatch.github.io/oh-contribution-stories/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="span1"></div>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://openhatch.github.io/oh-contribution-stories/"><span class=site-name>A Pelican Blog</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://openhatch.github.io/oh-contribution-stories">Home</a></li>
+                            <li ><a href="http://openhatch.github.io/oh-contribution-stories/categories.html">Categories</a></li>
+                            <li ><a href="http://openhatch.github.io/oh-contribution-stories/tags.html">Tags</a></li>
+                            <li ><a href="http://openhatch.github.io/oh-contribution-stories/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://openhatch.github.io/oh-contribution-stories/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+    <h1>Authors on A Pelican Blog</h1>                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
 </html>
