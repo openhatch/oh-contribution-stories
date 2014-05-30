@@ -1,13 +1,20 @@
-To run:
-bin/pelican content
+To test changes locally, use the following command (after editing settings_local.py), type:
 
-To add to gh-pages:
+bin/pelican content -s settings_local.py -v
+
+To run the full deploy script (including pushing your changes to the remote repository's gh-pages branch), type:
+
+./deploy.sh
+
+To just add to gh-pages:
+
 bin/ghp-import output -m "Regenerate site"
 
 (See http://docs.getpelican.com/en/3.1.1/tips.html)
 
 
 Tagging structure:
+
 Tags can be conceptually grouped, for instance there is a set of "helped by" tags -- these should be separated by a dash.
 This is not a comprehensive list of tags.
 
