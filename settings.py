@@ -10,3 +10,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['tipue_search', 'sitemap', ]
+
+SITEMAP = {
+	'format': 'xml'
+}
