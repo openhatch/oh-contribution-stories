@@ -1,4 +1,4 @@
-SITEURL = 'http://openhatch.github.io/oh-contribution-stories'
+SITEURL = 'http://mergestories.com'
 TIMEZONE = 'America/New_York'
 
 THEME = './themes/pelican-elegant'  # Specify a customized theme, via absolute path
