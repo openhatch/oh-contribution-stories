@@ -42,7 +42,7 @@ title: Submit
 <label class="ss-q-item-label" for="entry_690550334"><div class="ss-q-title">You can suggest some tags for your story, separated by commas.  We can also add tags for you.
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr">View the full list of tags here: <a href="http://www.google.com/url?q=http%3A%2F%2Fopenhatch.github.io%2Foh-contribution-stories%2Ftags.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH8uMJ8S1caxmOjthsHaac670303w">http://openhatch.github.io/oh-contribution-stories/tags.html</a></div></label>
-<textarea name="entry.690550334" rows="8" cols="0" class="ss-q-long" id="entry_690550334" dir="auto" aria-label="You can suggest some tags for your story, separated by commas.  We can also add tags for you. View the full list of tags here: http://openhatch.github.io/oh-contribution-stories/tags.html "></textarea>
+<textarea name="entry.690550334" rows="8" cols="0" class="ss-q-long" id="entry_690550334" dir="auto" aria-label="You can suggest some tags for your story, separated by commas.  We can also add tags for you. View the full list of tags here: http://www.mergestories.com/tags.html "></textarea>
 <div class="error-message"></div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
