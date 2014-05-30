@@ -1,3 +1,4 @@
 pelican
 Markdown
 ghp-import
+beautifulsoup4
