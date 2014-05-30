@@ -80,10 +80,27 @@
     </div>
 
     {% if articles %}
+
     {% set css_class = 'span8 offset2' %}
     {% if articles and PROJECTS and LANDING_PAGE_ABOUT %}
     {% set css_class = 'span12' %}
     {% endif %}
+
+    <div class="row-fluid">
+        <div class="{{css_class}}">
+            <header>
+            <h1>Tags</h1>
+            </header>
+
+            <ul class="list-of-tags tags-in-article">
+                {% for aTag, tagged_articles in tags %}
+                <li><a href="{{ SITEURL }}/tags.html#{{ aTag.slug }}-ref">{{ aTag }}
+                    <span>{{ tagged_articles|count }}</span>
+                {% endfor %}</a></li>
+            </ul>
+        </div>
+    </div>
+
     <div class="row-fluid">
         <div class="{{css_class}}">
             <header>
