@@ -101,6 +101,38 @@
         </div>
     </div>
 
+    {% if page_name == 'index' %}
+
+            {% for tag, articles in tags|sort %}
+            {% if tag == 'featured' %}
+
+    <div class="row-fluid">
+        <div class="{{css_class}}">
+            <header>
+            <h1 id="recent-posts">Featured Posts <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h1>
+            </header>
+        <div class="recent-posts">
+
+            {% for article in articles %}
+            <article>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+                <section>
+                    posted in
+                <a href="{{ SITEURL }}/categories.html#{{ article.category.slug }}-ref">{{ article.category }}</a>
+                <div class="recent-posts-time">
+                <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                </div>
+                </section>
+            </article>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+            {% endif %}
+            {% endfor %}
+  
+    {% endif %}
+
     <div class="row-fluid">
         <div class="{{css_class}}">
             <header>
