@@ -5,3 +5,28 @@ label {
 .required-message {
     display: none;
 }
+
+textarea {
+    width:600px;
+    height:100px;
+}
+
+.ss-q-title {
+    font-size:16px;
+    margin: 5px 0px 5px 0px;
+}
+
+.ss-form ol{
+    margin: 0 0 0 0;
+}
+
+.form_subhead {
+    font-size:26px;
+    font-weight:bold;
+    margin: 15px 0px 15px 0px;
+}
+
+.questions {
+    font-size:14px;
+    margin: 10px 10px 10px 10px;
+}
