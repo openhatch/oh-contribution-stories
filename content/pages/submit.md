@@ -1,4 +1,5 @@
 title: Submit
+slug: Submit
 
 <script>
 
@@ -319,11 +320,13 @@ What did you need to already know to make your contribution, that someone new to
 <div dir="ltr" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_690550334"><div class="ss-q-title">You can suggest some tags for your story, separated by commas.  We can also add tags for you.
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">View the full list of tags here: <a href="http://www.google.com/url?q=http%3A%2F%2Fmergestories.com%2Ftags.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFvKIQL6f1TiNq0CfVI-1PwjMxk3g">http://mergestories.com/tags.html</a></div></label>
+<div class="ss-q-help ss-secondary-text" dir="ltr">View the full list of tags here: <a href="http://www.google.com/url?q=http%3A%2F%2Fmergestories.com%2Ftags.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFvKIQL6f1TiNq0CfVI-1PwjMxk3g" target="_blank">http://mergestories.com/tags.html</a></div></label>
 <textarea name="entry.690550334" rows="8" cols="0" class="ss-q-long" id="entry_690550334" dir="auto" aria-label="You can suggest some tags for your story, separated by commas.  We can also add tags for you. View the full list of tags here: http://mergestories.com/tags.html "></textarea>
 <div class="error-message"></div>
 <div class="required-message">This is a required question</div>
 </div></div></div>
+
+By submitting your story, you agree to license it as <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
 
 <input type="hidden" name="draftResponse" value="[,,&quot;-6022307322665735255&quot;]">
 <input type="hidden" name="pageHistory" value="0">
