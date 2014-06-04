@@ -3,6 +3,5 @@ include
 lib
 local
 output
-settings.pyc
-settings_local.pyc
-settings_local.py
+*.pyc
+*~
