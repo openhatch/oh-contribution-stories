@@ -21,7 +21,7 @@ textarea {
 }
 
 .form_subhead {
-    font-size:26px;
+    font-size:24px;
     font-weight:bold;
     margin: 15px 0px 15px 0px;
 }
