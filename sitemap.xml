@@ -4,189 +4,203 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/index.html</loc>
-<lastmod>2014-06-03T19:56:16-00:00</lastmod>
+<loc>http://localhost:8000/index.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/archives.html</loc>
-<lastmod>2014-06-03T19:56:16-00:00</lastmod>
+<loc>http://localhost:8000/archives.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tags.html</loc>
-<lastmod>2014-06-03T19:56:16-00:00</lastmod>
+<loc>http://localhost:8000/tags.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/categories.html</loc>
-<lastmod>2014-06-03T19:56:16-00:00</lastmod>
+<loc>http://localhost:8000/categories.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/pages/submit.html</loc>
-<lastmod>2014-06-03T19:56:16-00:00</lastmod>
+<loc>http://localhost:8000/pages/About.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/reviving-debexpo.html</loc>
+<loc>http://localhost:8000/pages/Submit.html</loc>
+<lastmod>2014-06-04T18:22:57-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/reviving-debexpo.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/third-test-post.html</loc>
+<loc>http://localhost:8000/third-test-post.html</loc>
 <lastmod>2014-05-29T12:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/a-sixth-post.html</loc>
+<loc>http://localhost:8000/a-sixth-post.html</loc>
 <lastmod>2014-05-27T12:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/second-test-post.html</loc>
+<loc>http://localhost:8000/second-test-post.html</loc>
 <lastmod>2014-05-24T13:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/first-test-post.html</loc>
+<loc>http://localhost:8000/featured-test-post.html</loc>
 <lastmod>2014-05-24T12:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/this-is-a-fifth-test-post.html</loc>
+<loc>http://localhost:8000/this-is-a-fifth-test-post.html</loc>
 <lastmod>2014-05-24T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/fourth-test-post.html</loc>
+<loc>http://localhost:8000/fourth-test-post.html</loc>
 <lastmod>2014-05-20T12:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/category/misc.html</loc>
+<loc>http://localhost:8000/category/misc.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/difficulties-encountered-language-barrier.html</loc>
+<loc>http://localhost:8000/tag/difficulties-encountered-language-barrier.html</loc>
 <lastmod>2014-05-24T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/project-openhatch.html</loc>
+<loc>http://localhost:8000/tag/project-openhatch.html</loc>
 <lastmod>2014-05-29T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/kind-of-contribution-documentation.html</loc>
+<loc>http://localhost:8000/tag/kind-of-contribution-documentation.html</loc>
 <lastmod>2014-05-24T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/kind-of-contribution-community-mangement.html</loc>
+<loc>http://localhost:8000/tag/kind-of-contribution-community-mangement.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/difficulties-encountered-build.html</loc>
+<loc>http://localhost:8000/tag/difficulties-encountered-build.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/project-debian.html</loc>
+<loc>http://localhost:8000/tag/project-debian.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/kind-of-contribution-testing.html</loc>
+<loc>http://localhost:8000/tag/kind-of-contribution-testing.html</loc>
 <lastmod>2014-05-24T13:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/helped-by-parent.html</loc>
+<loc>http://localhost:8000/tag/featured.html</loc>
+<lastmod>2014-05-30T00:13:57-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/tag/helped-by-parent.html</loc>
 <lastmod>2014-05-20T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/helped-by-computer-club.html</loc>
+<loc>http://localhost:8000/tag/helped-by-computer-club.html</loc>
 <lastmod>2014-05-24T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/difficulties-encountered-mistake-in-documentation.html</loc>
+<loc>http://localhost:8000/tag/difficulties-encountered-mistake-in-documentation.html</loc>
 <lastmod>2014-05-24T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/helped-by-web-search.html</loc>
+<loc>http://localhost:8000/tag/helped-by-web-search.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/helped-by-irc.html</loc>
+<loc>http://localhost:8000/tag/helped-by-irc.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/tag/kind-of-contribution-code.html</loc>
+<loc>http://localhost:8000/tag/kind-of-contribution-code.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>file:///home/shauna/Desktop/git/oh/oh-contribution-stories/output/author/asheesh-laroia.html</loc>
+<loc>http://localhost:8000/author/asheesh-laroia.html</loc>
 <lastmod>2014-05-30T00:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
