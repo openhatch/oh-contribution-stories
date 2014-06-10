@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Shauna Gordon-McKeon" />
+        <meta name="copyright" content="Shauna Gordon-McKeon" />
+
+        <meta name="description" content="I started off as a user of Iron Blogger, which is both a piece of software and a social group. Individuals agree to write a blog post every week or pay $5; when enough money is collected, the group meets for pizza and beer. The Iron Blogger software, which is ...
+" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="first contribution, project - iron blogger, helped by - friend, helped by -mailing list, helped by - documentation, kind of contribution - code, difficulties encountered - unfamiliar with FOSS, featured, misc, " />
+
+<meta property="og:title" content="My first FOSS contribution to Iron Blogger "/>
+<meta property="og:url" content="http://mergestories.com/first-FOSS-contribution-to-iron-blogger.html" />
+<meta property="og:description" content="I started off as a user of Iron Blogger, which is both a piece of software and a social group. Individuals agree to write a blog post every week or pay $5; when enough money is collected, the group meets for pizza and beer. The Iron Blogger software, which is ..." />
+<meta property="og:site_name" content="Merge Stories" />
+<meta property="og:article:author" content="Shauna Gordon-McKeon" />
+<meta property="og:article:published_time" content="2014-06-10T18:05:00" />
+<meta name="twitter:title" content="My first FOSS contribution to Iron Blogger ">
+<meta name="twitter:description" content="I started off as a user of Iron Blogger, which is both a piece of software and a social group. Individuals agree to write a blog post every week or pay $5; when enough money is collected, the group meets for pizza and beer. The Iron Blogger software, which is ...">
+
+        <title>My first FOSS contribution to Iron Blogger  · Merge Stories
+</title>
+        <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/custom.css" media="screen">
+        <link href="http://mergestories.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Merge Stories - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="span1"></div>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://mergestories.com/"><span class=site-name>Merge Stories</span></a> A project of OpenHatch
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://mergestories.com">Home</a></li>
+                            <li ><a href="http://mergestories.com/pages/About.html">About</a></li>
+                            <li ><a href="http://mergestories.com/pages/Submit.html">Submit</a></li>
+                            <li ><a href="http://mergestories.com/tags.html">Tags</a></li>
+                            <li ><a href="http://mergestories.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://mergestories.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://mergestories.com/first-FOSS-contribution-to-iron-blogger.html"> My first FOSS contribution to Iron Blogger  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>I started off as a user of <a href="http://mako.cc/copyrighteous/iron-blogger">Iron Blogger</a>, which is both a piece of software and a social group.  Individuals agree to write a blog post every week or pay $5; when enough money is collected, the group meets for pizza and beer.  The Iron Blogger software, which is built off of the <a href="http://www.planetplanet.org/">Planet feed aggregator</a>, provides a feed of all the blog posts written by participants combined.  I enjoyed reading this feed but was annoyed that it only showed the most recent 15 posts.  I decided to change Iron Blogger to show more.  </p>
+<p>I was new to FOSS at the time and didn't really know where to begin.  Luckily I was friends with the maintainer of the project and he was able to point me to where the source code was stored (it has since moved).  After several hours of poking around the repository, looking through Planet's documentation, and emailing both my friend and the Planet mailing list, I was able to identify the variable to change.  I'm afraid I don't remember the details of the obstacles I faced, as this was several years ago now.  I <em>do</em> remember telling my friend, "Okay, I found the variable!  You just need to go to line 37 in the configuration file and change itemsperpage from 15 to, say, 50..."  He told me to submit a patch.  He explained what a patch was and gave me a link to a tutorial that looked something like <a href="http://jungels.net/articles/diff-patch-ten-minutes.html">this</a>.  I was then able to generate a patch, which he merged into the project.  A few years later, the project was put on Github, so you can see the commit (linked below).  </p>
+<p>This was a great first contribution to make, because it was something I cared about but also something very straightforward to fix with my programming background (which is not very extensive, but did cover variables and configuration files).  I was also lucky to have someone willing to walk me through the basics of downloading repositories and creating patches.</p>
+<p>Relevant Links:
+<a href="https://github.com/paultag/iron-blogger/commit/abe5a57a68ccfd4426f1a73bf6d365c7f19e9173">Patch</a></p>
+            
+            
+            <hr/>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Submitted By</h4>
+            <a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
+
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-06-10T18:05:00">Jun 10, 2014</time>
+            <h4>Category</h4>
+            <a class="category-link" href="http://mergestories.com/categories.html#misc-ref">misc</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://mergestories.com/tags.html#difficulties-encountered-unfamiliar-with-foss-ref">difficulties encountered - unfamiliar with FOSS
+                    <span>1</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#featured-ref">featured
+                    <span>2</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#first-contribution-ref">first contribution
+                    <span>1</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#helped-by-documentation-ref">helped by - documentation
+                    <span>1</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#helped-by-friend-ref">helped by - friend
+                    <span>1</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#helped-by-mailing-list-ref">helped by -mailing list
+                    <span>1</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#kind-of-contribution-code-ref">kind of contribution - code
+                    <span>2</span>
+</a></li>
+                <li><a href="http://mergestories.com/tags.html#project-iron-blogger-ref">project - iron blogger
+                    <span>1</span>
+</a></li>
+            </ul>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
