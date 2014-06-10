@@ -94,9 +94,9 @@
 
             <ul class="list-of-tags tags-in-article">
                 {% for aTag, tagged_articles in tags %}
-                <li><a href="{{ SITEURL }}/tags.html#{{ aTag.slug }}-ref">{{ aTag }}
+                <a href="{{ SITEURL }}/tags.html#{{ aTag.slug }}-ref">{{ aTag }}
                     <span>{{ tagged_articles|count }}</span>
-                {% endfor %}</a></li>
+                {% endfor %}</a>
             </ul>
         </div>
     </div>
