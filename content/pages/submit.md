@@ -39,7 +39,7 @@ If you're not sure what to write, check out this [example story]() or browse thr
 
 Please try to give as much detail as you can. Questions marked with an asterisk are required.
 
-<div class="ss-form"><form action="https://docs.google.com/forms/d/1RmsXfbOFtPNJ5_LwfS3NcYhFOtq2fseRwef_R222oxM/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
+<div class="ss-form"><form action="http://www.mergestories.com/pages/submitted.html" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
 
 <div class="form_subhead">The Basics</div>
 
