@@ -35,7 +35,7 @@ window.onload = (function() {
 
 Have you ever made a contribution to an open source project? Tell us about it here. Don't be shy - no contribution is too small. And contributions involving mistakes, confusion, and trying ten different things until something works? Are the best for others to learn from.
 
-If you're not sure what to write, check out this [example story]() or browse through the other contributions.
+If you're not sure what to write, check out the [featured stories](http://mergestories.com/first-FOSS-contribution-to-iron-blogger.html).
 
 Please try to give as much detail as you can. Questions marked with an asterisk are required.
 
