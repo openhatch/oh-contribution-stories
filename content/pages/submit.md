@@ -35,6 +35,8 @@ window.onload = (function() {
 
 Have you ever made a contribution to an open source project? Tell us about it here. Don't be shy - no contribution is too small. And contributions involving mistakes, confusion, and trying ten different things until something works? Are the best for others to learn from.
 
+We want to hear about all different types of contributions, not just code.  Did you file a bug, design a logo, give user feedback, fix or translate some documentation, or manage an event?  Please tell us your story!
+
 If you're not sure what to write, check out the [featured stories](http://mergestories.com/tags.html#featured-ref).
 
 Please try to give as much detail as you can. Questions marked with an asterisk are required.
