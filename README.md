@@ -7,17 +7,17 @@ The project is still being constructed, so pardon the mess.
 MergeStories is built using [Pelican](http://blog.getpelican.com/), a static site generator.  The theme is a modified version of [Pelican Elegant](http://oncrashreboot.com/elegant-best-pelican-theme-features).   The site is published via [Github Pages](https://pages.github.com/), with the help of [ghp-import](https://github.com/davisp/ghp-import).
 
 Potentially interesting files:
-__CNAME__ is the file which allows viewers going to mergestories.com to view the content of the github pages site.  
-__deploy.sh__ is a file that the maintainer uses to quickly and easily push changes to the site.
-__README.md__ is this very file.
-__requirements.txt__ is a list of requirements that the project needs to run.  (To install them, see below.)
-__settings.py__ is the configuration file for Pelican.
-__settings_local.py__ is an extension of the the configuration file for Pelican which allows us to easily develop locally.
++ __CNAME__ is the file which allows viewers going to mergestories.com to view the content of the github pages site.  
++ __deploy.sh__ is a file that the maintainer uses to quickly and easily push changes to the site.
++ __README.md__ is this very file.
++ __requirements.txt__ is a list of requirements that the project needs to run.  (To install them, see below.)
++ __settings.py__ is the configuration file for Pelican.
++ __settings_local.py__ is an extension of the the configuration file for Pelican which allows us to easily develop locally.
 
 Potentially interesting directories:
-__content__ contains the articles and some of the pages (submit, about) for the site.  
-__pelican-plugins__ contains the plugins that add functionality to the site.  
-__themes__ contains the Pelican Elegant theme that we use.  Within Pelican Elegant is the directory __static__ which contains CSS (you'll likely want to edit _custom.css_) and __templates__ which contain templates controlling how the site is displayed.  These are written in HTML and Jinja.
++ __content__ contains the articles and some of the pages (submit, about) for the site.  
++ __pelican-plugins__ contains the plugins that add functionality to the site.  
++ __themes__ contains the Pelican Elegant theme that we use.  Within Pelican Elegant is the directory __static__ which contains CSS (you'll likely want to edit _custom.css_) and __templates__ which contain templates controlling how the site is displayed.  These are written in HTML and Jinja.
 
 ###Contributing
 
@@ -41,7 +41,7 @@ You will probably need to set up the development environment.  To do this, you'l
 
 From there, you may need to install some requirements.  Requirements.txt has the list of requirements.  If you're on Linux, the easy way to install them is to type into your command line: 
 
-    pip install -r requirements.txt</pre> 
+    pip install -r requirements.txt
 
 (Note: you may have to first install pip.  You may also run into permissions issues.)
 
