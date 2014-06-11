@@ -22,6 +22,7 @@ __Who made MergeStories?__
 MergeStories was conceived of by [Shauna Gordon-McKeon](http://www.shaunagm.net/) and designed and developed with the help of [Asheesh Laroia](http:​/​/​www​.​asheesh​.​org​/).  It is a project of [OpenHatch](http://openhatch.org/).  Other contributors include:
 
 * Paul Tagliamonte
+* Amol Bhave
 
 __How can I help?__
 
