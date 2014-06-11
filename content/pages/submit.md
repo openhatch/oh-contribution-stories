@@ -39,8 +39,10 @@ If you're not sure what to write, check out the [featured stories](http://merges
 
 Please try to give as much detail as you can. Questions marked with an asterisk are required.
 
-<div class="ss-form"><form action="http://www.mergestories.com/pages/submitted.html" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
-
+<div class="ss-form">
+<iframe name="iframe_lfyrwwrj" id="iframe_lfyrwwrj" style="display:none;" onload="if(typeof sent_lfyrwwrj!='undefined'){window.location='http://mergestories.com/pages/submitted.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/1RmsXfbOFtPNJ5_LwfS3NcYhFOtq2fseRwef_R222oxM/formResponse"  method="POST" id="ss-form" target="iframe_lfyrwwrj" onsubmit="sent_lfyrwwrj=true"><ol role="list" class="ss-question-list" style="padding-left: 0">
+"http://www.mergestories.com/pages/submitted.html"
 <div class="form_subhead">The Basics</div>
 
 <div class="ss-form-question errorbox-good" role="listitem">
