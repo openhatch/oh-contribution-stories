@@ -21,7 +21,7 @@ textarea {
 }
 
 .form_subhead {
-    font-size:24px;
+    font-size:26px;
     font-weight:bold;
     margin: 15px 0px 15px 0px;
 }
@@ -29,4 +29,48 @@ textarea {
 .questions {
     font-size:14px;
     margin: 10px 10px 10px 10px;
+}
+
+.filler {
+    height:30px;
+}
+
+
+.navbar-inner {
+    background-image:none;
+    background-color:#7fc4ff;
+}
+
+.body {
+    background-color:#7fc4ff;
+}
+
+.nav.pull-right {
+    margin-top:30px;
+    margin-right:30px;
+}
+
+.navbar .nav li a {
+    color:white;
+    text-shadow:none;
+    font-size:16px;
+}
+
+.list-of-tags a {
+   background:white; 
+   color:black;
+}
+
+.site-name {
+    margin-top:20px;
+    font-size:40px;
+    color:white;
+    padding:0px;
+}
+
+.site-description {
+    font-size:24px;
+    color:white;
+    margin-top:-25px;
+    padding:0px;
 }
