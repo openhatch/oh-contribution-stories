@@ -3,7 +3,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'submit', 'search
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['tipue_search']
 
-RECENT_ARTICLES_COUNT = 10       # Sets # of articles to be shown on front page
+RECENT_ARTICLES_COUNT = 5       # Sets # of articles to be shown on front page
 
 SITENAME = 'Merge Stories'
 SITE_DESCRIPTION = 'A project of OpenHatch'
