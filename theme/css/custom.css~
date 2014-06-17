@@ -40,12 +40,6 @@ textarea {
     margin: 0 0 0 0;
 }
 
-.form_subhead {
-    font-size:26px;
-    font-weight:bold;
-    margin: 15px 0px 15px 0px;
-}
-
 .questions {
     font-size:14px;
     margin: 10px 10px 10px 10px;
@@ -58,7 +52,7 @@ article {
 }
 
 article a {
-    color: #7fc4ff;
+    color:#7fc4ff;
 }
 
 article h3 a, h4 a, h5 a {
@@ -122,6 +116,11 @@ article h3 a, h4 a, h5 a {
 
 .no-space-below {
     margin-bottom:0px;
+}
+
+.no-space-left {
+    margin-left:0px;
+    padding-left:0px;
 }
 
 .list-of-tags a {
