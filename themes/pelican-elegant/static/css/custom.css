@@ -118,6 +118,11 @@ article h3 a, h4 a, h5 a {
     margin-bottom:0px;
 }
 
+a.no-space-left {
+    margin-left:0px;
+    padding-left:0px;
+}
+
 .list-of-tags a {
    background:white; 
    color:black;

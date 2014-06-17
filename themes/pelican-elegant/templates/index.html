@@ -100,15 +100,19 @@
             {% set oldtest = "fake" %}
             <ul class="list-of-tags tags-in-article">
                 {% for aTag, tagged_articles in tags|sort %}
-                {% set ttest = aTag.name.split("-")[0] %}
-                {% set tname = aTag.name.split("-")[1] %}
-                {% if ttest == oldtest %}
-                {% else %}
-                    <b>{{ ttest }}</b> <br />
-                {% endif %}
-                {% set oldtest = ttest %}
-                <a href="{{ SITEURL }}/tag/{{ aTag.slug }}.html"> {{ tname }}</a>
-                 ({{ tagged_articles|count }})<br />
+                    {% set ttest = aTag.name.split("-")[0] %}
+                    {% set tname = aTag.name.split("-")[1] %}
+                    {% if tname is defined %}
+                        {% if ttest == oldtest %}
+                        {% else %}
+                            <b>{{ ttest }}</b> <br />
+                        {% endif %}
+                        {% set oldtest = ttest %}
+                        <a href="{{ SITEURL }}/tag/{{ aTag.slug }}.html"> {{ tname }}</a>
+                        ({{ tagged_articles|count }})<br />
+                    {% else %}            
+                        <b><a class="no-space-left" href="{{ SITEURL }}/tag/{{ aTag.slug }}.html"> {{ aTag }}</a>({{ tagged_articles|count }})</b><br />
+                    {% endif %}
                 {% endfor %}</a>
             </ul>
      </div>
