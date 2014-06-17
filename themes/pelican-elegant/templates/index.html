@@ -47,7 +47,7 @@
             {% if tag == 'featured' %}
 
             <header>
-                <center><h2 id="recent-posts">Featured Posts</h2></center>
+                <center><h2 id="recent-posts">Featured Stories</h2></center>
             </header>
             <div class="row-fluid">
                 <div class="span12">
@@ -71,7 +71,7 @@
     <div class="row-fluid">
         <div class="span12">
             <header>
-            <h2 id="recent-posts">Recent Posts <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h2>
+            <h2 id="recent-posts">Recent Stories <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h2>
             </header>
         <div class="recent-posts">
             {% for article in articles %}
@@ -106,7 +106,7 @@
                     <b>{{ ttest }}</b> <br />
                 {% endif %}
                 {% set oldtest = ttest %}
-                <a href="{{ SITEURL }}/tags.html#{{ aTag.slug }}-ref"> {{ tname }}</a>
+                <a href="{{ SITEURL }}/tag/{{ aTag.slug }}.html"> {{ tname }}</a>
                  ({{ tagged_articles|count }})<br />
                 {% endfor %}</a>
             </ul>
