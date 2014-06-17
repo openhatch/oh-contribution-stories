@@ -47,7 +47,7 @@
             {% if tag == 'featured' %}
 
             <header>
-                <center><h2 id="recent-posts">Featured Stories</h2></center>
+                <center><h3 id="recent-posts">Featured Stories</h3></center>
             </header>
             <div class="row-fluid">
                 <div class="span12">
@@ -55,7 +55,7 @@
                     {% if loop.index0 < 2 %}
                     <div class="span6">
                         <article>
-                                <h5><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> <p>by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a></p></h5>
+                                <h4 class="no-space-below"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h4><p>by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a></p>
                                 {{ article.summary }}
                         </article>
                     </div>
@@ -71,17 +71,18 @@
     <div class="row-fluid">
         <div class="span12">
             <header>
-            <h2 id="recent-posts">Recent Stories <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h2>
+            <center><h3 id="recent-posts">Recent Stories</h3></center>
             </header>
-        <div class="recent-posts">
+        <div>
             {% for article in articles %}
             {% from '_includes/_defaults.html' import RECENT_ARTICLES_COUNT with context %}
             {% if loop.index0 < RECENT_ARTICLES_COUNT %}
             <article>
-                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+                <h5 class="no-space-below"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></h5>
                                 <section>
-                                    posted by<a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a> on 
-{{ article.locale_date }} 
+                                    posted by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a> on 
+{{ article.locale_date }} <br />
+{{ article.summary }}
                                 </section>
             </article>
             {% endif %}
@@ -93,7 +94,7 @@
 </div>
      <div class="span3">
         <header>
-            <h2>Tags</h2>
+            <h3>Tags</h3>
             </header>
 
             {% set oldtest = "fake" %}

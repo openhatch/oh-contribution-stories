@@ -35,14 +35,58 @@ textarea {
     height:30px;
 }
 
-
-.navbar-inner {
-    background-image:none;
+.body {
     background-color:#7fc4ff;
 }
 
-.body {
-    background-color:#7fc4ff;
+.list-of-tags a {
+   background:white; 
+   color:black;
+}
+
+h1,h2,h3 {
+    font-family: 'Delius', cursive;
+}
+
+h4,h5 {
+    font-weight:bold;
+}
+
+.no-space-below {
+    margin-bottom:0px;
+}
+
+/* Article styling */
+
+article a {
+    color: #7fc4ff;
+}
+
+article h3 a, h4 a, h5 a {
+    color:black;
+}
+
+/* Header styling */
+
+.site-name {
+    margin-top:20px;
+    font-size:40px;
+    color:white;
+    padding:0px;
+    font-family: 'Delius', cursive;
+    /* 'Merriweather Sans', sans-serif; */
+}
+
+.site-description {
+    font-size:22px;
+    color:white;
+    margin-top:-25px;
+    float:right;    
+    font-family: 'Delius', cursive;
+}
+
+.navbar {
+    font-family: 'Delius', cursive;
 }
 
 .nav.pull-right {
@@ -53,24 +97,22 @@ textarea {
 .navbar .nav li a {
     color:white;
     text-shadow:none;
-    font-size:16px;
+    font-size:22px;
 }
 
-.list-of-tags a {
-   background:white; 
-   color:black;
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    background-color:#7fc4ff;
+    box-shadow:none;
+    -webkit-box-shadow;none;
 }
 
-.site-name {
-    margin-top:20px;
-    font-size:40px;
+.navbar .nav>.active>a {
     color:white;
-    padding:0px;
 }
 
-.site-description {
-    font-size:20px;
-    color:white;
-    margin-top:-25px;
-    float:right;
+.navbar-inner {
+    background-image:none;
+    background-color:#7fc4ff;
 }
+
+
