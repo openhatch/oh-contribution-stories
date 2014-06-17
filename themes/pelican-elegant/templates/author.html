@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ SITENAME }} - Articles by {{ author }}{% endblock %}
+
+{% block content %}
+<div class="row-fluid filler">
+</div>
+
+<div class="row-fluid">
+    <div class="page-header span12">
+        <center><h3>{{ author }}'s Posts</h3></center>
+        <div class="blog-archives">
+            {% for article in dates %}
+                    <article>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+                <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                <p> {{ article.summary }}</p>
+                </article>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block script %}
+    {{ super() }}
+    {% from '_includes/comments.html' import comments_script with context %}
+    {{ comments_script(article) }}
+{% endblock script %}
