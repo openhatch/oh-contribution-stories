@@ -53,15 +53,17 @@
     <body>
         <div id="content-sans-footer">
         <div class="navbar navbar-static-top">
-            <div class="navbar-inner">
+        <div class="navbar-inner">
+
                 <div class="container-fluid">
-                    <div class="span1"></div>
+        <a class="brand" href="{{ SITEURL }}/"><img src=" {{ SITEURL }}/images/pg.png">
+        <span class=site-name>{{ SITENAME }} <br /> <span class="site-description">{{ SITE_DESCRIPTION }}</span></span></a> 
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="{{ SITEURL }}/"><span class=site-name>{{ SITENAME }}</span></a> {{ SITE_DESCRIPTION }}
+                    
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
                             <li {% if page_name == 'index' %} class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
