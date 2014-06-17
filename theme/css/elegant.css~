@@ -163,7 +163,7 @@ article div.article-content ul:not(.articles-timeline) a:hover {
     text-align: justify;
 }
 .article-content {
-/*   max-width: 50em; */
+    max-width: 50em;
 }
 .article-content p, div.recent-posts p {
     font-size: inherit;

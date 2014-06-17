@@ -26,6 +26,8 @@
         <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/tipuesearch/tipuesearch.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/elegant.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/custom.css" media="screen">
+        <link href='http://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:700,400,800' rel='stylesheet' type='text/css'>
         <link href="http://mergestories.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Merge Stories - Full Atom Feed" />
     </head>
     <body>
@@ -46,8 +48,7 @@
                         <ul class="nav pull-right top-menu">
                             <li ><a href="http://mergestories.com">Home</a></li>
                             <li ><a href="http://mergestories.com/pages/About.html">About</a></li>
-                            <li ><a href="http://mergestories.com/pages/Submit.html">Submit</a></li>
-                            <li ><a href="http://mergestories.com/tags.html">Tags</a></li>
+                            <li ><a href="http://mergestories.com/submit.html">Submit</a></li>
                             <li ><a href="http://mergestories.com/archives.html">Archives</a></li>
                             <li><form class="navbar-search" action="http://mergestories.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
@@ -71,35 +72,39 @@
     <div class="row-fluid">
         <div class="span12">
             <header>
-            <h2 id="recent-posts">Recent Posts <a id="allposts" href="http://mergestories.com/archives.html">all posts</a></h2>
+            <center><h3 id="recent-posts">Recent Stories</h3></center>
             </header>
-        <div class="recent-posts">
+        <div>
             <article>
-                <a href="http://mergestories.com/clipping-in-scipy.html">Clipping functions in SciPy  </a>
+                <h5 class="no-space-below"><a href="http://mergestories.com/clipping-in-scipy.html">Clipping functions in SciPy  </a></h5>
                                 <section>
-                                    posted by<a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
-Tue 10 June 2014 
+                                    posted by <a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
+Tue 10 June 2014 <br />
+<p>I found <a href="http://www.scipy.org/">SciPy</a> when searching for projects that were both in the domain of scientific research and statistical analysis, and written in the python programming language.  (SciPy refers to both the scientific computing library I contributed to, as well as the general open source package which also includes projects like iPython and Matplotlib.)  I felt a bit intimidated at first, because I'm not an expert in statistics or python, so I decided to start with one of the <a href="https://github.com/scipy/scipy/issues?labels=easy-fix&amp;page=1&amp;state=open">issues labeled easy_fix</a>.  I browsed through many of the issues before finding one that I thought I had a prayer of being able to handle...</p>
                                 </section>
             </article>
             <article>
-                <a href="http://mergestories.com/first-FOSS-contribution-to-iron-blogger.html">My first FOSS contribution to Iron Blogger  </a>
+                <h5 class="no-space-below"><a href="http://mergestories.com/first-FOSS-contribution-to-iron-blogger.html">My first FOSS contribution to Iron Blogger  </a></h5>
                                 <section>
-                                    posted by<a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
-Tue 10 June 2014 
+                                    posted by <a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
+Tue 10 June 2014 <br />
+<p>The Iron Blogger software, which is built off of the <a href="http://www.planetplanet.org/">Planet feed aggregator</a>, provides a feed of all the blog posts written by participants combined.  I enjoyed reading this feed but was annoyed that it only showed the most recent 15 posts.  I decided to change Iron Blogger to show more...</p>
                                 </section>
             </article>
             <article>
-                <a href="http://mergestories.com/small-bug-in-gimp.html">Filing a small bug with GIMP  </a>
+                <h5 class="no-space-below"><a href="http://mergestories.com/small-bug-in-gimp.html">Filing a small bug with GIMP  </a></h5>
                                 <section>
-                                    posted by<a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
-Tue 10 June 2014 
+                                    posted by <a href="http://mergestories.com/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a> on 
+Tue 10 June 2014 <br />
+<p>I've been using GIMP for years, but I've never contributed to it. I wanted to see how their documentation currently looked, so I went to <a href="http://www.gimp.org/">their website</a> and started clicking and reading links.  When I got to the link for their <a href="https://git.gnome.org/browse/gimp/plain/INSTALL">installation guide</a>, it sent me to a blank page...</p>
                                 </section>
             </article>
             <article>
-                <a href="http://mergestories.com/reviving-debexpo.html">Reviving debexpo  </a>
+                <h5 class="no-space-below"><a href="http://mergestories.com/reviving-debexpo.html">Reviving debexpo  </a></h5>
                                 <section>
-                                    posted by<a href="http://mergestories.com/author/asheesh-laroia.html" rel="author">Asheesh Laroia</a> on 
-Fri 30 May 2014 
+                                    posted by <a href="http://mergestories.com/author/asheesh-laroia.html" rel="author">Asheesh Laroia</a> on 
+Fri 30 May 2014 <br />
+<p>I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready.  I took it upon myself to...</p>
                                 </section>
             </article>
         </div>
@@ -108,54 +113,54 @@ Fri 30 May 2014
 </div>
      <div class="span3">
         <header>
-            <h2>Tags</h2>
+            <h3>Tags</h3>
             </header>
 
             <ul class="list-of-tags tags-in-article">
                     <b>difficulties encountered </b> <br />
-                <a href="http://mergestories.com/tags.html#difficulties-encountered-build-ref">  build</a>
+                <a href="http://mergestories.com/tag/difficulties-encountered-build.html">  build</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#difficulties-encountered-testing-ref">  testing</a>
+                <a href="http://mergestories.com/tag/difficulties-encountered-testing.html">  testing</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#difficulties-encountered-unfamiliar-with-foss-ref">  unfamiliar with FOSS</a>
+                <a href="http://mergestories.com/tag/difficulties-encountered-unfamiliar-with-foss.html">  unfamiliar with FOSS</a>
                  (1)<br />
                     <b>featured</b> <br />
-                <a href="http://mergestories.com/tags.html#featured-ref"> </a>
+                <a href="http://mergestories.com/tag/featured.html"> </a>
                  (2)<br />
                     <b>first contribution</b> <br />
-                <a href="http://mergestories.com/tags.html#first-contribution-ref"> </a>
+                <a href="http://mergestories.com/tag/first-contribution.html"> </a>
                  (1)<br />
                     <b>helped by </b> <br />
-                <a href="http://mergestories.com/tags.html#helped-by-documentation-ref">  documentation</a>
+                <a href="http://mergestories.com/tag/helped-by-documentation.html">  documentation</a>
                  (2)<br />
-                <a href="http://mergestories.com/tags.html#helped-by-friend-ref">  friend</a>
+                <a href="http://mergestories.com/tag/helped-by-friend.html">  friend</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#helped-by-irc-ref">  IRC</a>
+                <a href="http://mergestories.com/tag/helped-by-irc.html">  IRC</a>
                  (2)<br />
-                <a href="http://mergestories.com/tags.html#helped-by-mailing-list-ref"> mailing list</a>
+                <a href="http://mergestories.com/tag/helped-by-mailing-list.html"> mailing list</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#helped-by-maintainer-ref">  maintainer</a>
+                <a href="http://mergestories.com/tag/helped-by-maintainer.html">  maintainer</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#helped-by-web-search-ref">  web search</a>
+                <a href="http://mergestories.com/tag/helped-by-web-search.html">  web search</a>
                  (2)<br />
                     <b>kind of contribution </b> <br />
-                <a href="http://mergestories.com/tags.html#kind-of-contribution-bug-report-ref">  bug report</a>
+                <a href="http://mergestories.com/tag/kind-of-contribution-bug-report.html">  bug report</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#kind-of-contribution-code-ref">  code</a>
+                <a href="http://mergestories.com/tag/kind-of-contribution-code.html">  code</a>
                  (2)<br />
-                <a href="http://mergestories.com/tags.html#kind-of-contribution-community-mangement-ref">  community mangement</a>
+                <a href="http://mergestories.com/tag/kind-of-contribution-community-mangement.html">  community mangement</a>
                  (1)<br />
                     <b>project </b> <br />
-                <a href="http://mergestories.com/tags.html#project-debian-ref">  debian</a>
+                <a href="http://mergestories.com/tag/project-debian.html">  debian</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#project-gimp-ref">  gimp</a>
+                <a href="http://mergestories.com/tag/project-gimp.html">  gimp</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#project-iron-blogger-ref">  iron blogger</a>
+                <a href="http://mergestories.com/tag/project-iron-blogger.html">  iron blogger</a>
                  (1)<br />
-                <a href="http://mergestories.com/tags.html#project-scipy-ref">  scipy</a>
+                <a href="http://mergestories.com/tag/project-scipy.html">  scipy</a>
                  (1)<br />
                     <b>tools used </b> <br />
-                <a href="http://mergestories.com/tags.html#tools-used-git-ref">  git</a>
+                <a href="http://mergestories.com/tag/tools-used-git.html">  git</a>
                  (1)<br />
 </a>
             </ul>
@@ -175,7 +180,6 @@ Fri 30 May 2014
 <footer>
 <div id="footer">
     <ul class="footer-content">
-        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
 </footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
@@ -187,6 +191,4 @@ Fri 30 May 2014
             }
         </script>
     </body>
-    <!-- Theme: Elegant built for Pelican
-    License : http://oncrashreboot.com/pelican-elegant -->
 </html>
