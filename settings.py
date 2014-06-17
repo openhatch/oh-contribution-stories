@@ -1,4 +1,4 @@
-DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'submit', 'search', '404'))
 
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['tipue_search']

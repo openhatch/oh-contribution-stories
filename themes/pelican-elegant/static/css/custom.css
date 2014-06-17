@@ -1,14 +1,34 @@
-label {
-    display: inline;
+/* Basics */
+
+.body {
+    background-color:#7fc4ff;
 }
 
-.required-message {
-    display: none;
+a {
+    color: #7fc4ff;
+}
+
+h1,h2,h3 {
+    font-family: 'Delius', cursive;
+}
+
+h4,h5 {
+    font-weight:bold;
+}
+
+label {
+    display: inline;
 }
 
 textarea {
     width:600px;
     height:100px;
+}
+
+/* Submit form */
+
+.required-message {
+    display: none;
 }
 
 .ss-q-title {
@@ -20,43 +40,16 @@ textarea {
     margin: 0 0 0 0;
 }
 
-.form_subhead {
-    font-size:26px;
-    font-weight:bold;
-    margin: 15px 0px 15px 0px;
-}
-
 .questions {
     font-size:14px;
     margin: 10px 10px 10px 10px;
 }
 
-.filler {
-    height:30px;
-}
-
-.body {
-    background-color:#7fc4ff;
-}
-
-.list-of-tags a {
-   background:white; 
-   color:black;
-}
-
-h1,h2,h3 {
-    font-family: 'Delius', cursive;
-}
-
-h4,h5 {
-    font-weight:bold;
-}
-
-.no-space-below {
-    margin-bottom:0px;
-}
-
 /* Article styling */
+
+article {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 article a {
     color: #7fc4ff;
@@ -115,4 +108,17 @@ article h3 a, h4 a, h5 a {
     background-color:#7fc4ff;
 }
 
+/* MISC */
 
+.filler {
+    height:30px;
+}
+
+.no-space-below {
+    margin-bottom:0px;
+}
+
+.list-of-tags a {
+   background:white; 
+   color:black;
+}
