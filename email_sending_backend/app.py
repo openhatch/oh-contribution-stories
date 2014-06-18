@@ -107,7 +107,7 @@ def index():
         nice_data_dict = post_to_meaningful_data(d)
         msg = format_as_email(nice_data_dict)
         _send_email(msg)
-        return redirect('http://mergestories.com/submitted.html')
+        return redirect('http://mergestories.com/pages/submitted.html')
     else:
         return 'I think you wanted to POST.'
 
