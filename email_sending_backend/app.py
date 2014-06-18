@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 import types
 app = Flask(__name__)
 
@@ -95,7 +95,7 @@ There was a new Merge Stories submission!
         s += '\n'
     return s
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         # Copy the request.form into a vanilla dict
@@ -103,10 +103,12 @@ def index():
         for key in request.form:
             d[unicode(key, 'utf-8', 'ignore')]  = request.form[key]
         nice_data_dict = post_to_meaningful_data(d)
+        msg = format_as_email(nice_data_dict)
         _send_email(msg)
+    else:
+        return 'I think you wanted to POST.'
 
 def _send_email(msg):
-    import pdb; pdb.set_trace()
     # This function is tested manually.
-    return
+    pass
 
