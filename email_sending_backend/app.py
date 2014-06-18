@@ -1,7 +1,7 @@
 from flask import Flask, request
 import types
 app = Flask(__name__)
-import email
+import email.message
 import smtplib
 
 FROM_ADDR = 'noreply+mergestories@linode.openhatch.org'
@@ -112,11 +112,11 @@ def index():
 
 def _send_email(msg_text):
     # This function is tested manually.
-    msg = email.Message()
+    msg = email.message.Message()
     msg.set_payload(msg_text.encode('utf-8'), 'utf-8')
     msg['subject'] = SUBJECT
     msg['to'] = TO
-    msg['from'] = FROM
+    msg['from'] = FROM_ADDR
     # Now, send it via localhost SMTP
     smtpObj = smtplib.SMTP('localhost')
-    smtpObj.sendmail(FROM, [TO], message.as_string())
+    smtpObj.sendmail(FROM_ADDR, [TO], msg.as_string())
