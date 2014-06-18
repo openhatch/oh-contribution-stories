@@ -73,12 +73,40 @@ def post_to_meaningful_data(d):
 
     return out
 
+def format_as_email(nice_data_dict):
+    if 'steps' in nice_data_dict:
+        steps = nice_data_dict.pop('steps')
+    dict_as_str = u''
+    for k, v in sorted(nice_data_dict.items(), key=lambda i: i[0]):
+        if type(k) != unicode:
+            k = unicode(k, 'utf-8', 'ignore')
+
+        assert type(v) == unicode
+        dict_as_str +=  k.title() + ': ' + v + '\n'
+
+    s = '''Hi there,
+
+There was a new Merge Stories submission!
+
+%s''' % (dict_as_str,)
+    if steps:
+        s += '\nSteps:\n\n'
+        s += '\n\n'.join(steps)
+        s += '\n'
+    return s
+
 @app.route('/')
 def index():
     if request.method == 'POST':
-        _send_email(post_dict)
+        # Copy the request.form into a vanilla dict
+        d = {}
+        for key in request.form:
+            d[unicode(key, 'utf-8', 'ignore')]  = request.form[key]
+        nice_data_dict = post_to_meaningful_data(d)
+        _send_email(msg)
 
-def _send_email(from_addr, subject, post_dict):
+def _send_email(msg):
+    import pdb; pdb.set_trace()
     # This function is tested manually.
     return
 

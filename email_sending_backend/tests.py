@@ -29,10 +29,10 @@ class AppTests(unittest.TestCase):
             'tags': 'Comma,delimited,tags',
             'title': 'title',
             'steps': [
-                'The first step',
-                'next step 1',
-                'next step 2',
-                'next step 3',
+                u'The first step',
+                u'next step 1',
+                u'next step 2',
+                u'next step 3',
                 ],
             'email': 'email',
             'link': 'link ',
@@ -41,10 +41,41 @@ class AppTests(unittest.TestCase):
         self.assertEqual(sorted(got.items()),
                          sorted(expected.items()))
 
-    #def test_post_calls_email_sender(self):
-    #    rv = self.app.post('/', post={})
-    #    import pdb; pdb.set_trace()
-            
+    def test_turn_meaningful_data_into_string_for_email(self):
+        data = {
+            'name': u'Asheesh Just Testing',
+            'tags': u'Comma,delimited,tags',
+            'title': u'title',
+            'steps': [
+                u'The first step',
+                u'next step 1',
+                u'next step 2',
+                u'next step 3',
+                ],
+            'email': u'email',
+            'link': u'link ',
+            'project': u'project',
+        }
+        email_body = '''Hi there,
 
-    
-        
+There was a new Merge Stories submission!
+
+Email: email
+Link: link 
+Name: Asheesh Just Testing
+Project: project
+Tags: Comma,delimited,tags
+Title: title
+
+Steps:
+
+The first step
+
+next step 1
+
+next step 2
+
+next step 3
+'''
+        self.assertEqual(app.format_as_email(data),
+                         email_body)
