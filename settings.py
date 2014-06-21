@@ -1,3 +1,6 @@
+ARTICLE_URL = 's/{slug}/'
+ARTICLE_SAVE_AS = 's/{slug}/index.html'
+
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'submit', 'search', '404'))
 
 PLUGIN_PATH = 'pelican-plugins'
