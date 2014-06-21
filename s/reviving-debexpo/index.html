@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Asheesh Laroia" />
+        <meta name="copyright" content="Asheesh Laroia" />
+
+        <meta name="description" content="I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready. I took it upon myself to...
+" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="project - debian, difficulties encountered - build, helped by - IRC, helped by - web search, kind of contribution - code, kind of contribution - community mangement, featured, misc, " />
+
+<meta property="og:title" content="Reviving debexpo "/>
+<meta property="og:url" content="http://mergestories.com/s/reviving-debexpo/" />
+<meta property="og:description" content="I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready. I took it upon myself to..." />
+<meta property="og:site_name" content="Merge Stories" />
+<meta property="og:article:author" content="Asheesh Laroia" />
+<meta property="og:article:published_time" content="2014-05-30T00:13:57" />
+<meta name="twitter:title" content="Reviving debexpo ">
+<meta name="twitter:description" content="I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready. I took it upon myself to...">
+
+        <title>Reviving debexpo  · Merge Stories
+</title>
+        <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://mergestories.com/theme/css/custom.css" media="screen">
+        <link href='http://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:700,400,800' rel='stylesheet' type='text/css'>
+        <link href="http://mergestories.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Merge Stories - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+
+                <div class="container-fluid">
+        <a class="brand" href="http://mergestories.com/"><img src=" http://mergestories.com/images/pg.png">
+        <span class=site-name>Merge Stories <br /> <span class="site-description">A project of OpenHatch</span></span></a> 
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://mergestories.com">Home</a></li>
+                            <li ><a href="http://mergestories.com/pages/About.html">About</a></li>
+                            <li ><a href="http://mergestories.com/submit.html">Submit</a></li>
+                            <li ><a href="http://mergestories.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://mergestories.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<div class="row-fluid filler">
+</div>
+
+<div class="row-fluid">
+    <div class="span9">
+
+        <article>
+            <div class="row-fluid">
+                <header class="page-header span12">
+                    <h1>Reviving debexpo </h1>
+                </header>
+            </div>
+            <div class="row-fluid">
+                <div class="span12 article-content">
+                    
+                    <p>I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready.</p>
+<p>I took it upon myself to:</p>
+<ul>
+<li>
+<p>Email the original authors of the code</p>
+</li>
+<li>
+<p>Talk to prospective users on IRC</p>
+</li>
+<li>
+<p>Work on it a lot at the yearly Debian conference in 2011 -- I already planned on going, and instead of just socializing, I used the Debconf hack lab space to work on this.</p>
+</li>
+<li>
+<p>Transition it to a different community that now maintains it -- I did this by intentionally making contribution really easy, and then repeatedly asking for help on the debian-mentors email list.</p>
+</li>
+</ul>
+<p>All in all, I had a fun time. It is always a pleasure to help Debian.</p>
+<p>I learned a lot about the Pylons web framework as a result, which I mostly learned through massive Googling.  </p>
+<p>Relevant links:
+<a href="http://mentors.debian.net/">Project website</a></p>
+                    
+                    
+                    <hr/>
+                </div>        
+            </div>
+        </article>
+    </div>
+    <div class="span3">
+        <section>
+            <div class="filler">
+            </div>
+            <div class="span12" style="float:right;font-size:0.9em;">
+                    <h3>Submitted By</h3>
+                    <a href="http://mergestories.com/author/asheesh-laroia.html" rel="author">Asheesh Laroia</a>
+
+                    <h3>Published</h3>
+                    <time pubdate="pubdate" datetime="2014-05-30T00:13:57">May 30, 2014</time>
+                    <h3>Category</h3>
+                    <a class="category-link" href="http://mergestories.com/categories.html#misc-ref">misc</a>
+                    <h3>Tags</h3>
+                        <ul class="list-of-tags tags-in-article">
+                                    <b>difficulties encountered </b> <br />
+                                <a href="http://mergestories.com/tag/difficulties-encountered-build.html">  build</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/difficulties-encountered-testing.html">  testing</a>
+                                (2)<br />
+                                <a href="http://mergestories.com/tag/difficulties-encountered-unfamiliar-with-foss.html">  unfamiliar with FOSS</a>
+                                (1)<br />
+            
+                                <b><a class="no-space-left" href="http://mergestories.com/tag/featured.html"> featured</a>(4)</b><br />
+            
+                                <b><a class="no-space-left" href="http://mergestories.com/tag/first-contribution.html"> first contribution</a>(1)</b><br />
+                                    <b>helped by </b> <br />
+                                <a href="http://mergestories.com/tag/helped-by-community-members.html">  community members</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/helped-by-documentation.html">  documentation</a>
+                                (2)<br />
+                                <a href="http://mergestories.com/tag/helped-by-friend.html">  friend</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/helped-by-irc.html">  IRC</a>
+                                (3)<br />
+                                <a href="http://mergestories.com/tag/helped-by-mailing-list.html"> mailing list</a>
+                                (2)<br />
+                                <a href="http://mergestories.com/tag/helped-by-maintainer.html">  maintainer</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/helped-by-web-search.html">  web search</a>
+                                (2)<br />
+                                    <b>kind of contribution </b> <br />
+                                <a href="http://mergestories.com/tag/kind-of-contribution-bug-report.html">  bug report</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/kind-of-contribution-code.html">  code</a>
+                                (2)<br />
+                                <a href="http://mergestories.com/tag/kind-of-contribution-community-mangement.html">  community mangement</a>
+                                (1)<br />
+                                    <b>project </b> <br />
+                                <a href="http://mergestories.com/tag/project-debian.html">  debian</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/project-drupal.html">  drupal</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/project-gimp.html">  gimp</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/project-iron-blogger.html">  iron blogger</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/project-openhatch.html">  openhatch</a>
+                                (1)<br />
+                                <a href="http://mergestories.com/tag/project-scipy.html">  scipy</a>
+                                (1)<br />
+                                    <b>setting </b> <br />
+                                <a href="http://mergestories.com/tag/setting-sprint.html">  sprint</a>
+                                (2)<br />
+                                    <b>tools used </b> <br />
+                                <a href="http://mergestories.com/tag/tools-used-git.html">  git</a>
+                                (1)<br />
+</a>
+                        </ul>
+            </div>
+        </section>
+    </div>
+</div>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+</html>
