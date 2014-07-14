@@ -37,7 +37,7 @@ Before getting started on an issue, please check in with me so I can make sure t
 
 You will probably need to set up the development environment.  To do this, you'll want to fork and clone the project from Github.  If you're not familiar with git/Github, you might appreciate [this page](https://openhatch.org/wiki/Git_Basics).  
 
-(Note: You may want to work within a [VirtualEnv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html).)
+You may want to work within a [VirtualEnv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html). Note: this project's default is to use virtualenv but not activate it, hence our deploy.sh script uses bin/pelican, for instance.  To set up the virtualenv in this way, install the program and then simply type 'virtualenv .' in the top level of the repository.  For subsequent commands you should type bin/pip and bin/pelican instead of pip and pelican.
 
 From there, you may need to install some requirements.  Requirements.txt has the list of requirements.  If you're on Linux, the easy way to install them is to type into your command line: 
 
