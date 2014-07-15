@@ -112,13 +112,20 @@ article h3 a, h4 a, h5 a {
 
 .filler {
     height:30px;
+    text-align:center;
+}
+
+.filler p {
+    font-family: 'Delius', cursive;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .no-space-below {
     margin-bottom:0px;
 }
 
-.no-space-left {
+a.no-space-left {
     margin-left:0px;
     padding-left:0px;
 }

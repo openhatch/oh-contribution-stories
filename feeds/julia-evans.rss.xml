@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merge Stories</title><link>http://mergestories.com/</link><description></description><atom:link href="http://mergestories.com/feeds/julia-evans.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 13 Jun 2014 21:33:06 -0400</lastBuildDate><item><title>Open source is hard! (or, how the test bot made me cry)</title><link>http://mergestories.com/s/how-the-test-bot-made-me-cry/</link><description>&lt;p&gt;When I graduated from university, I worked for a web consulting shop called &lt;a href="http://evolvingweb.ca"&gt;Evolving Web&lt;/a&gt; that used &lt;a href="http://drupal.org"&gt;Drupal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;They cared a lot about contributing to open source, and were delightful enough to send me to DrupalCon Denver in 2012. DrupalCon was really fun! As with many open source conferences, there were sprints at the end, and I decided that I wanted to contribute to Drupal during the sprints. My employer was into it. Awesome plan.&lt;/p&gt;
+&lt;p&gt;At the sprints, I met someone who was working on a new configuration management system for Drupal. If you're not familiar with Drupal, configuration management at that point was a HUGE PAIN. All the configuration was in the database (!!), so it was impossible to version. This sucked, a lot.&lt;/p&gt;
+&lt;p&gt;He was asking people to help convert Drupal systems to the new configuration management system. I thought this sounded SUPER AWESOME.&lt;/p&gt;
+&lt;p&gt;So here I'm&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;at an awesome open source conference&lt;/li&gt;
+&lt;li&gt;with a community which is super welcoming to beginners&lt;/li&gt;
+&lt;li&gt;working on a component that I'm personally interested in improving (configuration management)&lt;/li&gt;
+&lt;li&gt;and there are people who can help me contribute in real life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WHAT COULD BE BETTER?&lt;/p&gt;
+&lt;p&gt;So I go to the sprints! The people are super friendly. I decide to work on converting search settings. &lt;a href="https://drupal.org/node/1496510"&gt;Here's the issue!&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;I spend what feels like all day working on a patch, making a bunch of replacements like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$count = variable_get('search_embedded_form_submitted', 0);&lt;/li&gt;
+&lt;li&gt;$count = config('search.settings')-&amp;gt;get('embedded_form_submitted');&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;which convert from the old settings API to the new one. (spoiler: that particular change actually made it into the final commit!)&lt;/p&gt;
+&lt;p&gt;This seems promising! But then EVERYTHING GOES WRONG. The main thing that is wrong is that the unit test runner takes about 20 minutes to run tests, and some people say that I shouldn’t totally rely on its results. So I can't tell if the problem is with my code or the testbot, and I mostly spend the whole day being frustrated with the testbot. (you can see my attempts! I'm jvns in the issue tracker) The issue also turned to be a bit more complicated than I originally thought -- there were some subtleties with the search settings that made this not totally trivial.&lt;/p&gt;
+&lt;p&gt;So I don’t manage to get the tests to pass. I go home and cry because I was expecting it to be fun and to maybe get my patch merged and instead it was so frustrating and my patch totally didn't work. =)&lt;/p&gt;
+&lt;p&gt;5 months, 50 comments, and many more commits later, some later version of the patch finally gets merged.&lt;/p&gt;
+&lt;p&gt;This isn't in any way an indictment of the Drupal community -- they're so helpful and wonderful, and really committed to helping new contributors get started. But getting started contributing to open source can be really hard and frustrating, sometimes just for technical reasons like a test bot is overwhelmed at a sprint.&lt;/p&gt;
+&lt;p&gt;Relevant links:&lt;br /&gt;
+&lt;a href="https://drupal.org/node/1496510"&gt;Issue&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Julia Evans</dc:creator><pubDate>Fri, 13 Jun 2014 21:33:06 -0400</pubDate><guid>tag:mergestories.com,2014-06-13:s/how-the-test-bot-made-me-cry/</guid><category>project - drupal</category><category>helped by - community members</category><category>setting - sprint</category><category>difficulties encountered - testing</category><category>featured</category></item></channel></rss>

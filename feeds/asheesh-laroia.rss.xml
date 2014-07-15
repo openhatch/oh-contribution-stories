@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merge Stories</title><link>http://mergestories.com/</link><description></description><atom:link href="http://mergestories.com/feeds/asheesh-laroia.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 30 May 2014 00:13:57 -0400</lastBuildDate><item><title>Reviving debexpo</title><link>http://mergestories.com/s/reviving-debexpo/</link><description>&lt;p&gt;I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready.&lt;/p&gt;
+&lt;p&gt;I took it upon myself to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Email the original authors of the code&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Talk to prospective users on IRC&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Work on it a lot at the yearly Debian conference in 2011 -- I already planned on going, and instead of just socializing, I used the Debconf hack lab space to work on this.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transition it to a different community that now maintains it -- I did this by intentionally making contribution really easy, and then repeatedly asking for help on the debian-mentors email list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All in all, I had a fun time. It is always a pleasure to help Debian.&lt;/p&gt;
+&lt;p&gt;I learned a lot about the Pylons web framework as a result, which I mostly learned through massive Googling.  &lt;/p&gt;
+&lt;p&gt;Relevant links:
+&lt;a href="http://mentors.debian.net/"&gt;Project website&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Asheesh Laroia</dc:creator><pubDate>Fri, 30 May 2014 00:13:57 -0400</pubDate><guid>tag:mergestories.com,2014-05-30:s/reviving-debexpo/</guid><category>project - debian</category><category>difficulties encountered - build</category><category>helped by - IRC</category><category>helped by - web search</category><category>kind of contribution - code</category><category>kind of contribution - community mangement</category><category>featured</category></item></channel></rss>

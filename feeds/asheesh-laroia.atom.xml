@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Merge Stories</title><link href="http://mergestories.com/" rel="alternate"></link><link href="http://mergestories.com/feeds/asheesh-laroia.atom.xml" rel="self"></link><id>http://mergestories.com/</id><updated>2014-05-30T00:13:57-04:00</updated><entry><title>Reviving debexpo</title><link href="http://mergestories.com/s/reviving-debexpo/" rel="alternate"></link><updated>2014-05-30T00:13:57-04:00</updated><author><name>Asheesh Laroia</name></author><id>tag:mergestories.com,2014-05-30:s/reviving-debexpo/</id><summary type="html">&lt;p&gt;I discovered, through reading the Debian wiki, that there was a new web app created for Debian called Debexpo, and it was nearly ready to replace our existing package review tool, but not quite ready.&lt;/p&gt;
+&lt;p&gt;I took it upon myself to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Email the original authors of the code&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Talk to prospective users on IRC&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Work on it a lot at the yearly Debian conference in 2011 -- I already planned on going, and instead of just socializing, I used the Debconf hack lab space to work on this.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transition it to a different community that now maintains it -- I did this by intentionally making contribution really easy, and then repeatedly asking for help on the debian-mentors email list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All in all, I had a fun time. It is always a pleasure to help Debian.&lt;/p&gt;
+&lt;p&gt;I learned a lot about the Pylons web framework as a result, which I mostly learned through massive Googling.  &lt;/p&gt;
+&lt;p&gt;Relevant links:
+&lt;a href="http://mentors.debian.net/"&gt;Project website&lt;/a&gt;&lt;/p&gt;</summary><category term="project - debian"></category><category term="difficulties encountered - build"></category><category term="helped by - IRC"></category><category term="helped by - web search"></category><category term="kind of contribution - code"></category><category term="kind of contribution - community mangement"></category><category term="featured"></category></entry></feed>
