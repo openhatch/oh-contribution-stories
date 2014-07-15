@@ -5,7 +5,7 @@
 <script>
 
 window.onload = (function() {
-    for (var i=0; i < 20; i++) {        
+    for (var i=0; i < 20; i++) {                     
         var element = document.getElementById(i);  // For each element in the loop, get the step with that ID #
         if (element === null) {                    // If the element doesn't exist somehow, skip the rest of the for loop.
             continue;
@@ -13,19 +13,21 @@ window.onload = (function() {
         if (i != 0) {
             element.style.display="none";           // If it's the first element, don't hide it.
         }
-        var next = document.getElementById(i+1);    // Get the next element, and if it's not null...
-        if (next === null) {
-            continue;
-        }
-        var textareas = element.getElementsByTagName("textarea");   // Find its textarea.
-        for (var j = 0; j < textareas.length; j++) {                // There should only be one, this is a bit of a hack.
-            var textarea = textareas.item(j);
-            textarea.onkeyup = (function(e) {                       // Create an anonymous function which displays the next item when the textarea of the current item is changed.
-                return function() {
-                    e.style.display="block";
-                };
-            })(next);
-        };
+
+// Temporarily disabling this part of the function
+//        var next = document.getElementById(i+1);    // Get the next element, and if it's not null...
+//        if (next === null) {
+//            continue;
+//        }
+//        var textareas = element.getElementsByTagName("textarea");   // Find its textarea.
+//        for (var j = 0; j < textareas.length; j++) {                // There should only be one, this is a bit of a hack.
+//            var textarea = textareas.item(j);
+//            textarea.onkeyup = (function(e) {                       // Create an anonymous function which displays the next item when the textarea of the current item is changed.
+//                return function() {
+//                    e.style.display="block";
+//                };
+//            })(next);
+//        };
     };
 })
 
@@ -39,8 +41,7 @@ window.onload = (function() {
 </div>
 
 <div class="row-fluid">
-    <div class="span9">
-
+    <div class="span10 offset1">
         <article>
             <div class="row-fluid">
                 <header class="page-header span12">
@@ -103,9 +104,9 @@ window.onload = (function() {
 <div class="required-message">This is a required question</div>
 </div></div></div> 
 
-<h3>The Story</h3>
+<h3>The Story <span class="ss-required-asterisk">*</span></h3>
 
-<div class="ss-q-title">You can add up to 20 steps, but only the first step is required. You can leave the last step blank. Here are some example questions to help you write your story.</div>
+<div class="ss-q-title">Here are some example questions to help you write your story.</div>
 
 <div class="questions">
 How did you learn about the project? <br />
@@ -121,11 +122,10 @@ What did you need to already know to make your contribution, that someone new to
 
 <div class="ss-form-question errorbox-good" id="0" "role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1389151802"><div class="ss-q-title">The First Step
-<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-<span class="ss-required-asterisk">*</span></div>
+<label class="ss-q-item-label" for="entry_1389151802"><div class="ss-q-title">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label></div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<textarea name="entry.1389151802" rows="8" cols="0" class="ss-q-long" id="entry_1389151802" dir="auto" aria-label="Step 1  " aria-required="true" required=""></textarea>
+<div class="storydiv"><textarea name="entry.1389151802" rows="8" cols="0" class="ss-q-long" id="entry_1389151802" dir="auto" aria-label="Step 1  " aria-required="true" required=""></textarea></div>
 <div class="error-message"></div>
 <div class="required-message">This is a required question</div>
 </div></div></div> 
@@ -351,18 +351,11 @@ You should receive an email copy of your submission.  If you don't, please conta
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input type="submit" name="submit" value="Submit" id="ss-submit">
 </td></tr></tbody></table></div></ol></form></div>
+
+
                 </div>        
             </div>
         </article>
-    </div>
-    <div class="span3">
-        <section>
-            <div class="filler">
-            </div>
-            <div class="span12" style="float:right;font-size:0.9em;">
-                Useful prompts go here.
-            </div>
-        </section>
     </div>
 </div>
 {% endblock content %}

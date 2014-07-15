@@ -134,3 +134,14 @@ a.no-space-left {
    background:white; 
    color:black;
 }
+
+.ss-required-asterisk {
+    font-weight:normal;
+    font-size:16px;
+}
+
+
+.storydiv textarea {
+    width:600px;
+    height:300px;
+}
