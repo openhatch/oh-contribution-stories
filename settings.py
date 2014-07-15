@@ -3,6 +3,9 @@ ARTICLE_SAVE_AS = 's/{slug}/index.html'
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'submit', 'search', '404'))
 
+PAGE_URL = 'content/pages/{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['tipue_search']
 

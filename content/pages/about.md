@@ -1,5 +1,5 @@
 Title: About MergeStories
-Slug: About
+Slug: about
 
 __What are merge stories?__
 
