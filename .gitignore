@@ -3,5 +3,6 @@ include
 lib
 local
 output
+cache
 *~
 *.pyc
