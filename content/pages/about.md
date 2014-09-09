@@ -28,6 +28,7 @@ MergeStories was conceived of by [Shauna Gordon-McKeon](http://www.shaunagm.net/
 * Paul Tagliamonte
 * Amol Bhave
 * Britta Gustafson
+* Thomas Kluyver
 
 __How can I help?__
 
