@@ -49,10 +49,14 @@ textarea {
 
 article {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 25px;
+	
+	
 }
 
 article a {
     color:#7fc4ff;
+
 }
 
 article h3 a, h4 a, h5 a {
@@ -123,6 +127,7 @@ article h3 a, h4 a, h5 a {
 
 .no-space-below {
     margin-bottom:0px;
+	
 }
 
 a.no-space-left {
