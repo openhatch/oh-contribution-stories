@@ -5,7 +5,7 @@
 }
 
 a {
-    color: #7ff4ff;
+    color: #7fc4ff;
 }
 
 h1,h2,h3 {
@@ -49,12 +49,14 @@ textarea {
 
 article {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 0px 0px 60px 0px;
+	
 	
 }
 
 article a {
     color:#7fc4ff;
-padding: 0px 60px 60px 0px;
+
 }
 
 article h3 a, h4 a, h5 a {
