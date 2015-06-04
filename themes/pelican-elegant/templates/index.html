@@ -82,9 +82,9 @@
             {% if loop.index0 < RECENT_ARTICLES_COUNT %}
             <article>
                 <h5 class="no-space-below"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></h5>
-                                <section>
-                                    posted by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a> on 
-{{ article.locale_date }} <br />
+                                    <section>
+                                    <p>posted by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a> on 
+{{ article.locale_date }} </p>
 {{ article.summary }}
                                 </section>
             </article>
