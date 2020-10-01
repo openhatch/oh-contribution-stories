@@ -4,7 +4,7 @@ The project is still being constructed, so pardon the mess.
 
 ###Project Overview
 
-MergeStories is built using [Pelican](http://blog.getpelican.com/), a static site generator.  The theme is a modified version of [Pelican Elegant](http://oncrashreboot.com/elegant-best-pelican-theme-features).   The site is published via [Github Pages](https://pages.github.com/), with the help of [ghp-import](https://github.com/davisp/ghp-import).
+MergeStories is besically built using [Pelican](http://blog.getpelican.com/), a static site generator.  The theme is a modified version of [Pelican Elegant](http://oncrashreboot.com/elegant-best-pelican-theme-features).   The site is published via [Github Pages](https://pages.github.com/), with the help of [ghp-import](https://github.com/davisp/ghp-import).
 
 Potentially interesting files:
 + __CNAME__ is the file which allows viewers going to mergestories.com to view the content of the github pages site.  
